@@ -1,0 +1,23 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "BonnieGitonga"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+
+[params.author]
+name = "Bonnie GItonga"
+image = "img/author.jpg"
+headline = "Cybersecurity Engineer"
+bio = "A little bit about me"
+links = [
+  { twitter = "https://twitter.com/username" },
+  { github = "https://twitter.com/username" },
+  { linkedin = "https://twitter.com/username" },
+  { instagram = "https://twitter.com/username" }
+]
