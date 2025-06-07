@@ -24,24 +24,6 @@ Etiam sollicitudin, ante ac fermentum varius, lorem ante congue mi, auctor dictu
 ## Proin tempor lorem
 Proin tempor lorem quam, ac maximus lectus sodales et. Sed laoreet orci vel metus luctus lobortis. Nam ex velit, vehicula id tristique sed, blandit eu nisi. Quisque semper libero nec massa malesuada congue. In faucibus lorem at diam fringilla, vel viverra magna lobortis. Ut commodo est urna, ut aliquet enim sagittis ut. Nulla posuere arcu sed lobortis accumsan. Phasellus fringilla dolor id est lobortis feugiat. Quisque enim elit, faucibus a mauris non, mattis aliquet orci. Nunc sagittis viverra erat, id condimentum lacus suscipit quis.
 
-{{< alert >}}
-**Warning!** This action is destructive!
-{{< /alert >}}
-{{< alert "twitter" >}}
-Don't forget to [follow me](https://twitter.com/nunocoracao) on Twitter.
-{{< /alert >}}
 
-
-{{< codeimporter url="https://raw.githubusercontent.com/nunocoracao/blowfish/main/layouts/shortcodes/mdimporter.html" type="go" >}}
-`Inline code`
-
-```python
-# Code block example
-{{ $url := .Get "url"}}
-{{ with resources.GetRemote (urls.Parse $url) }}
-{{ .Content | markdownify }}
-{{ else }}
-{{ errorf "Mardown Importer Shortcode - Unable to get remote resource" . }}
-{{ end }}
 
 
